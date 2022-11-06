@@ -19,7 +19,7 @@ import static ru.netology.geo.GeoServiceImpl.MOSCOW_IP;
 
 @ExtendWith(MockitoExtension.class)
 
-public class MockitoTests {
+public class MockitoTest {
     private static final String IP_ADDRESS_HEADER = "x-real-ip";
     final String RU_IP = "172.0.32.11";
     final String US_IP = "96.44.183.149";
